@@ -2,8 +2,11 @@
 
 ```javascript
 {
-	API_TOKEN: 'YOUR_API_TOKEN',
-	API_SECRET; 'YOUR_API_SECRET'
+	API_TOKEN: 'YOUR_MIXPANEL_API_TOKEN',
+	API_SECRET; 'YOUR_MIXPANEL_API_SECRET',
+
+	// https://docs.google.com/spreadsheets/d/{ここの部分がスプレッドシートのkeyです}/edit#gid=0
+	SPREAD_SHEET_KEY: 'YOUR_KEY'
 }
 ```
 
@@ -26,6 +29,12 @@ $ rbenv exec gem install bundler
 bundle install --path vendor/bundle
 ```
 
-## 操作
+## 起動
+
+```shell
+ruby app.rb
+```
+
+## google_drive(gem)の操作
 
 cf. [https://github.com/gimite/google-drive-ruby#example-to-readwrite-spreadsheets](https://github.com/gimite/google-drive-ruby#example-to-readwrite-spreadsheets)

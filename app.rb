@@ -5,9 +5,9 @@ require 'uri'
 require 'json'
 require 'date'
 
-API_TOKEN = "API_TOKEN"
-API_SECRET = "API_SECRET"
-SPREAD_SHEET_KEY = 'SPREAD_SHEET_KEY'
+API_TOKEN = ""
+API_SECRET = ""
+SPREAD_SHEET_KEY = ''
 
 # Creates a session. This will prompt the credential via command line for the
 # first time and save it to config.json file for later usages.
